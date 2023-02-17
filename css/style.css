@@ -423,7 +423,35 @@ body {
 }
 
 .circle {
-    display: flex;
-    justify-content: end;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
     margin-top: 40px;
 }
+.box-guest {
+    display: inline-flex;
+}
+.arrow-guest {
+    width: 30px;
+    height: 20px;
+    transform: rotateY(180deg);
+    margin-right: 10px;
+    
+}
+.arrow-guest1 {
+    width: 30px;
+    height: 20px;
+}
+/* .box-guest {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-flex;
+    border-radius: 50%;
+    background-image: url(../images/arrow-guest.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+
+/* GUEST END */
