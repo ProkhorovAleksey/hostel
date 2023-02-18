@@ -45,7 +45,7 @@ body {
     transition: background-color 0.3s linear;
 }
 .header-btn:hover {
-    background-color: #aaa0a0;
+    background-color: #837e70;
 }
 /* END HEADER */
 
@@ -148,7 +148,7 @@ body {
 }
 
 .info-btn:hover {
-    background-color: #303028;
+    background-color: #22211e;
 }
 /* INFO END */
 .house {
@@ -266,7 +266,7 @@ body {
 }
 .prop-desk {
     margin-top: 30px;
-    padding-left: 80px;
+    margin-left: 80px;
 
     font-size: 16px;
     font-family: 'Montserrat';
@@ -312,6 +312,7 @@ body {
     background-color: #FAF8F0;
     height: 80vh;
     margin-top: 130px;
+    overflow: hidden;
 }
 
 .guest-title {
@@ -343,6 +344,7 @@ body {
     margin-left: 200px;
     margin-right: 200px;
     width: 120%;
+
 }
 .box {
     width: 700px;
@@ -436,22 +438,201 @@ body {
     height: 20px;
     transform: rotateY(180deg);
     margin-right: 10px;
-    
 }
 .arrow-guest1 {
     width: 30px;
     height: 20px;
 }
-/* .box-guest {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-    display: inline-flex;
-    border-radius: 50%;
-    background-image: url(../images/arrow-guest.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
 
 /* GUEST END */
+
+.image-hostel {
+    height: 70vh;
+    background-image: url(../images/image-hostel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* TOGETHER SETTINGS */
+
+.together {
+    background-color: #fff;
+    height: 35vh;
+    
+}
+
+.together-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 32px;
+    color: #52503B;
+}
+
+.together-desk {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    width: 514px;
+    color: #52503B;
+}
+
+.together-images {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    
+}
+.together-item {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.together-image-desk {
+    display: flex;
+    justify-content: space-between;
+    color: #52503B;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    width: 442px;
+    margin-left: 33px;
+}
+
+/* TOGETHER END */
+
+/* BOOK SETTINGS */
+
+
+.book {
+    background-color: #FAF8F0;
+    height: 60vh;
+    margin-top: 150px;
+}
+
+
+.book-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    font-size: 32px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-align: center;
+    width: 533px;
+    color: #52503B;
+}
+
+.book-desk {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-align: center;
+    width: 515px;
+    color: #52503B;
+}
+
+
+
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+.book-button {
+    justify-content: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.book-btn {
+    padding: 12px 23px;
+    border: 4px solid #52503B;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #52503B;
+    transition: color 0.3s linear;
+    transition: border-color 0.3s linear;
+}
+.book-btn:hover {
+    color: #1a1a18;
+    border-color: #1d1c1b;
+}
+.book-btn1 {
+    padding: 16px 26px;
+    background-color: #52503B;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    transition: background-color 0.3s linear;
+}
+
+.book-btn1:hover {
+    background-color:  #22211e;
+}
+/* BOOK END */
+
+
+/* FOOTER SETTINGS */
+
+.footer {
+    background-color: #52503B;
+    height: 70vh;
+}
+
+
+.footer-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.footer-title {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer-desk {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-align: center;
+}
+/* FOOTER END */
